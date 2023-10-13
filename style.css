@@ -98,8 +98,8 @@ padding-left: 150px ;
 }
 
 .products img{
-    width: 115px;
-    height: 115px;
+    width: 250px;
+    height: 330px;
 }
 
 .products p{
@@ -180,4 +180,154 @@ footer .foot{
     flex-direction: column;
     align-items: center;
     gap: 20px;
+}
+
+
+.variete_olive{
+    padding: 50px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.variete_olive .type img{
+    width: 324px;
+    height: 324px;
+}
+
+.variete_olive .type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.definition{
+    padding: 50px;
+
+}
+
+.definition h2, .definition p{
+    margin-top: 30px;
+}
+
+.img_variete{
+    padding: 50px;
+    ;
+}
+
+.img_variete .v1 , .img_variete .v2 , .img_variete .v3{
+    border-radius: 30px;
+}
+
+.img_variete .v2{
+
+    z-index: 1;
+    top: 100px;
+}
+
+.img_variete .v3{
+    z-index: 2;
+}
+
+.container{
+    padding: 50px;
+}
+
+.container .paragraph_taille{
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    font-size: 48px;
+    font-weight: normal;
+}
+
+.container .materiels .taille_olivier{
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.materiels{
+    padding: 50px;
+}
+
+.container_culture{
+    padding: 50px;
+}
+
+.container_culture img{
+    display: block;
+    margin: auto;
+}
+.culture_paragraph {
+    width: 70%;
+    margin-top: 50px;
+    font-size: 20px;
+
+}
+
+.culture .culture_img{
+    width: 700px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.container_livre {
+    padding: 50px;
+    background-color: #3F5F1B;
+}
+
+.container_livre .livres h1{
+    background-color: #fff;
+    padding: 20px;
+    width:fit-content;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.container_livre .products .box_livre{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+}
+
+
+.container_livre .products .box_livre img{
+    width: 250px;
+    height: 330px;
+}
+
+.container_livre .products .box_livre p{
+    color: #fff;
+}
+
+.container_livre .products .box_livre button{
+    background-color: #000;
+    width: 100px;
+}
+
+
+.products button {
+    color: #fff;
+    padding: 15px;
+    background-color: #3F5F1B;
+    border-radius: 30px;
+    border: none;
 }
